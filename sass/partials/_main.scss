@@ -1,0 +1,266 @@
+// INDEX 
+%banner {
+    position: relative;
+    width: 100%;
+    height: 40vh;
+    background-color: $rosaMuyClaro;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    margin-top: 0px;
+    border: none;
+    padding: none;
+    background-size: cover;
+
+    .banner-content {
+        margin: 80px;
+        padding: 0;
+        width: 100%;
+        height: 100%;
+        color: $rosaMuyClaro;
+        font-weight: bold;
+        font-family: $fuenteBanner;
+        font-size: 30px;
+        -webkit-text-stroke: $rosaClaro 1px;
+
+    }
+}
+
+
+
+.banner-uno {
+    @extend %banner;
+    background-image: url(../images-videos/cerdo-hocico-banner.jpg);
+}
+
+.primeras-palabras {
+    font-family: $fuenteMain;
+    font-size: 30px;
+    display: flex;
+    margin: 5%;
+    text-align: justify;
+}
+
+.video {
+    display: flex;
+    justify-content: center;
+}
+
+.segundas-palabras {
+    @extend .primeras-palabras;
+}
+
+.tres-imagenes {
+    display: flex;
+    padding: none;
+    background-position: center;
+    justify-content: center;
+    align-items: center;
+
+    img {
+        margin: 5px 5px;
+        border-radius: 10%;
+        width: 30%
+    }
+}
+
+// NUESTRA HISTORIA
+.banner-tres {
+    @extend %banner;
+    background-image: url(../images-videos/ternero-banner.png);
+}
+
+.main-dos {
+    font-family: $fuenteMain;
+    font-size: 150%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+
+    .nuestra {
+        font-size: 200%;
+        padding: 20px;
+        font-family: $fuenteBanner;
+        color: $rosaOscuro;
+        text-shadow: 1px 1px 2px black;
+    }
+
+    .img-grande {
+        border-radius: 50%;
+        width: 80%;
+    }
+
+    .text-uno {
+        padding: 3%;
+        text-align: justify;
+        margin: 0 5%;
+
+        .ear {
+            color: $rosaOscuro;
+            text-decoration-style: wavy;
+        }
+    }
+
+    .imagenes-chicas {
+        display: flex;
+        align-items: stretch;
+        justify-content: space-around;
+
+        .img-chica {
+            width: 33%;
+            border-radius: 10%;
+        }
+    }
+
+    .text-dos {
+        padding: 2%;
+        text-align: justify;
+        margin: 0 5%;
+
+        .guilu {
+            color: $rosaOscuro;
+            text-align: end;
+        }
+
+        .santucoco {
+            text-shadow: 1px 1px 2px $rosaOscuro;
+            color: $rosaClaro;
+        }
+    }
+}
+
+// RESIDENTES
+.banner-cuatro {
+    @extend %banner;
+    background-image: url(../images-videos/gallinas-banner.png);
+}
+
+.main-residentes {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: 400px 300px 300px 400px;
+    grid-template-areas:
+        'foto1 texto1 .'
+        '. texto2 foto2'
+        'foto3 texto3 .'
+        '. texto4 foto4';
+    padding: 40px 150px;
+    justify-items: center;
+    align-items: center;
+    font-family: $fuenteMain;
+    font-size: 150%;
+    background-image: url(../images-videos/corazonDos.png);
+
+    img {
+        width: 100%;
+        border-radius: 70%;
+    }
+
+    .vacas-r {
+        grid-area: foto1;
+    }
+
+    .cabras-r {
+        grid-area: foto2;
+    }
+
+    .cerdos-r {
+        grid-area: foto3;
+    }
+
+    .gallinas-r {
+        grid-area: foto4;
+    }
+
+    .vacas-r-texto {
+        grid-area: texto1;
+        padding: 5%;
+        text-align: left;
+    }
+
+    .cabras-r-texto {
+        grid-area: texto2;
+        padding: 5%;
+        text-align: right;
+    }
+
+    .cerdos-r-texto {
+        grid-area: texto3;
+        padding: 5%;
+        text-align: left;
+    }
+
+    .gallinas-r-texto {
+        grid-area: texto4;
+        padding: 5%;
+        text-align: right;
+    }
+}
+
+// INVOLUCRATE
+.banner-dos {
+    @extend %banner;
+    background-image: url(../images-videos/cerdos-banner.png);
+}
+
+.involu {
+    display: flex;
+    justify-content: center;
+    padding: 100px 60px;
+    background-image: url(../images-videos/animal.png);
+    height: 700px;
+
+    .card {
+        width: 30%;
+
+        .fotoCard {
+            height: 40%;
+            width: 100%;
+            object-fit: cover;
+        }
+
+        .card-title {
+            color: $rosaOscuro;
+            font-size: 150%;
+        }
+
+        .btn {
+            background-color: $rosaOscuro;
+            border: $rosaOscuro;
+        }
+    }
+}
+
+// VISITAS
+.banner-cinco {
+    @extend %banner;
+    background-image: url(../images-videos/cabra-banner.png);
+}
+
+.visit {
+    color: $rosaOscuro;
+    font-weight: 700;
+    background-image: url(../images-videos/floresFondooo.jpg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.visitaa {
+    display: flex;
+    align-items: center;
+    font-size: 110%;
+    text-align: justify;
+}
+
+.fotoVisita {
+    height: 33%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.iframeVis {
+    margin-left: 20px;
+}

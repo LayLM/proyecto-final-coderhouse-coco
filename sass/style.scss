@@ -1,0 +1,12 @@
+@import "partials/variables";
+
+* {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+
+@import "partials/header";
+@import "partials/main";
+@import "partials/footer";
+@import "partials/responsive";

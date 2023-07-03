@@ -1,0 +1,379 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+}
+
+header {
+  display: flex;
+  position: sticky;
+  top: 0;
+  z-index: 9999;
+  width: 100%;
+  background-color: #F2B6A0;
+  justify-content: end;
+}
+header .navbar {
+  background-color: #F2B6A0;
+  font-family: "Raleway";
+}
+
+.banner-cinco, .banner-dos, .banner-cuatro, .banner-tres, .banner-uno {
+  position: relative;
+  width: 100%;
+  height: 40vh;
+  background-color: #F8EAD8;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  margin-top: 0px;
+  border: none;
+  padding: none;
+  background-size: cover;
+}
+.banner-cinco .banner-content, .banner-dos .banner-content, .banner-cuatro .banner-content, .banner-tres .banner-content, .banner-uno .banner-content {
+  margin: 80px;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  color: #F8EAD8;
+  font-weight: bold;
+  font-family: "Darumadrop One";
+  font-size: 30px;
+  -webkit-text-stroke: #F2B6A0 1px;
+}
+
+.banner-uno {
+  background-image: url(../images-videos/cerdo-hocico-banner.jpg);
+}
+
+.primeras-palabras, .segundas-palabras {
+  font-family: "Sen";
+  font-size: 30px;
+  display: flex;
+  margin: 5%;
+  text-align: justify;
+}
+
+.video {
+  display: flex;
+  justify-content: center;
+}
+
+.tres-imagenes {
+  display: flex;
+  padding: none;
+  background-position: center;
+  justify-content: center;
+  align-items: center;
+}
+.tres-imagenes img {
+  margin: 5px 5px;
+  border-radius: 10%;
+  width: 30%;
+}
+
+.banner-tres {
+  background-image: url(../images-videos/ternero-banner.png);
+}
+
+.main-dos {
+  font-family: "Sen";
+  font-size: 150%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+.main-dos .nuestra {
+  font-size: 200%;
+  padding: 20px;
+  font-family: "Darumadrop One";
+  color: #E06469;
+  text-shadow: 1px 1px 2px black;
+}
+.main-dos .img-grande {
+  border-radius: 50%;
+  width: 80%;
+}
+.main-dos .text-uno {
+  padding: 3%;
+  text-align: justify;
+  margin: 0 5%;
+}
+.main-dos .text-uno .ear {
+  color: #E06469;
+  text-decoration-style: wavy;
+}
+.main-dos .imagenes-chicas {
+  display: flex;
+  align-items: stretch;
+  justify-content: space-around;
+}
+.main-dos .imagenes-chicas .img-chica {
+  width: 33%;
+  border-radius: 10%;
+}
+.main-dos .text-dos {
+  padding: 2%;
+  text-align: justify;
+  margin: 0 5%;
+}
+.main-dos .text-dos .guilu {
+  color: #E06469;
+  text-align: end;
+}
+.main-dos .text-dos .santucoco {
+  text-shadow: 1px 1px 2px #E06469;
+  color: #F2B6A0;
+}
+
+.banner-cuatro {
+  background-image: url(../images-videos/gallinas-banner.png);
+}
+
+.main-residentes {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  grid-template-rows: 400px 300px 300px 400px;
+  grid-template-areas: "foto1 texto1 ." ". texto2 foto2" "foto3 texto3 ." ". texto4 foto4";
+  padding: 40px 150px;
+  justify-items: center;
+  align-items: center;
+  font-family: "Sen";
+  font-size: 150%;
+  background-image: url(../images-videos/corazonDos.png);
+}
+.main-residentes img {
+  width: 100%;
+  border-radius: 70%;
+}
+.main-residentes .vacas-r {
+  grid-area: foto1;
+}
+.main-residentes .cabras-r {
+  grid-area: foto2;
+}
+.main-residentes .cerdos-r {
+  grid-area: foto3;
+}
+.main-residentes .gallinas-r {
+  grid-area: foto4;
+}
+.main-residentes .vacas-r-texto {
+  grid-area: texto1;
+  padding: 5%;
+  text-align: left;
+}
+.main-residentes .cabras-r-texto {
+  grid-area: texto2;
+  padding: 5%;
+  text-align: right;
+}
+.main-residentes .cerdos-r-texto {
+  grid-area: texto3;
+  padding: 5%;
+  text-align: left;
+}
+.main-residentes .gallinas-r-texto {
+  grid-area: texto4;
+  padding: 5%;
+  text-align: right;
+}
+
+.banner-dos {
+  background-image: url(../images-videos/cerdos-banner.png);
+}
+
+.involu {
+  display: flex;
+  justify-content: center;
+  padding: 100px 60px;
+  background-image: url(../images-videos/animal.png);
+  height: 700px;
+}
+.involu .card {
+  width: 30%;
+}
+.involu .card .fotoCard {
+  height: 40%;
+  width: 100%;
+  object-fit: cover;
+}
+.involu .card .card-title {
+  color: #E06469;
+  font-size: 150%;
+}
+.involu .card .btn {
+  background-color: #E06469;
+  border: #E06469;
+}
+
+.banner-cinco {
+  background-image: url(../images-videos/cabra-banner.png);
+}
+
+.visit {
+  color: #E06469;
+  font-weight: 700;
+  background-image: url(../images-videos/floresFondooo.jpg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.visitaa {
+  display: flex;
+  align-items: center;
+  font-size: 110%;
+  text-align: justify;
+}
+
+.fotoVisita {
+  height: 33%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.iframeVis {
+  margin-left: 20px;
+}
+
+footer {
+  background-color: #F2B6A0;
+  display: flex;
+  padding: 5px;
+  font-family: "Raleway";
+  list-style: none;
+  justify-content: space-evenly;
+  align-items: center;
+}
+footer a {
+  text-decoration: none;
+  color: black;
+}
+footer .cont {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  margin-left: 15px;
+  justify-content: center;
+  align-items: center;
+  font-size: 130%;
+}
+footer .cont .sub {
+  text-decoration: underline;
+}
+footer .cont .mailWasap {
+  width: 40px;
+  color: #E06469;
+}
+footer .f-dos {
+  text-align: center;
+  font-size: 150%;
+}
+footer .f-dos .sub {
+  text-decoration: underline;
+}
+
+/* MEDIA QUERIES */
+@media only screen and (max-width: 480px) {
+  h1 {
+    font-size: 140%;
+  }
+  .primeras-palabras, .segundas-palabras {
+    font-size: 150%;
+  }
+  .elVideo {
+    width: 100%;
+    height: 100%;
+  }
+  .segundas-palabras {
+    font-size: 150%;
+  }
+  .tres-imagenes {
+    flex-direction: column;
+  }
+  .tres-imagenes .img-uno {
+    padding: 3px 0;
+    margin: 0;
+  }
+  .tres-imagenes img {
+    width: 75%;
+  }
+  .visit {
+    padding: 20px;
+  }
+  .visitaa {
+    padding: 20px 50px;
+    flex-direction: column;
+  }
+  .visitaa .iframeVis {
+    margin-top: 10px;
+  }
+  .main-dos .imagenes-chicas {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .main-dos .imagenes-chicas .img-chica {
+    width: 85%;
+  }
+  .main-residentes {
+    grid-template-columns: 100%;
+    grid-template-rows: 200px 320px 200px 360px 200px 400px 200px 450px;
+    grid-template-areas: "foto1" "texto1" "foto2" "texto2" "foto3" "texto3" "foto4" "texto4";
+    padding: 10px;
+  }
+  .main-residentes img {
+    width: 60%;
+    padding: 10px;
+  }
+  .main-residentes .vacas-r-texto {
+    text-align: justify;
+  }
+  .main-residentes .cabras-r-texto {
+    text-align: justify;
+  }
+  .main-residentes .cerdos-r-texto {
+    text-align: justify;
+  }
+  .main-residentes .gallinas-r-texto {
+    text-align: justify;
+  }
+  .nuestra {
+    text-align: center;
+    padding: 0;
+  }
+  .involu {
+    flex-direction: column;
+    padding: 10px;
+    height: 2000px;
+    align-items: center;
+  }
+  .involu .card {
+    width: 90%;
+  }
+  footer {
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+  }
+  footer .cont {
+    font-size: 100%;
+    padding: 0;
+    margin: 0;
+  }
+  footer .cont .sub {
+    font-size: 100%;
+    padding: 0;
+    margin: 0;
+  }
+  footer .iframe {
+    display: none;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,14 @@
+header {
+    display: flex;
+    position: sticky;
+    top: 0;
+    z-index: 9999;
+    width: 100%;
+    background-color: $rosaClaro;
+    justify-content: end;
+
+    .navbar {
+        background-color: $rosaClaro;
+        font-family: $fuenteHeaderFooter;
+    }
+}
