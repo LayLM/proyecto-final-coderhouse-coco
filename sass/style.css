@@ -439,6 +439,19 @@ footer .f-dos .sub {
     grid-template-areas: "foto1 texto1 texto1" "texto2 texto2 foto2" "foto3 texto3 texto3" "texto4 texto4 foto4";
     padding: 40px 80px;
   }
+  .involu {
+    flex-direction: column;
+    padding: 10px;
+    height: 2000px;
+    align-items: center;
+  }
+  .involu .card {
+    width: 90%;
+    height: 650px;
+  }
+  .involu .card .fotoCard {
+    height: 400px;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

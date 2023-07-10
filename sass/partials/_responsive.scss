@@ -179,5 +179,20 @@
         padding: 40px 80px;
 
     }
+//involucrate
+.involu {
+    flex-direction: column;
+    padding: 10px;
+    height: 2000px;
+    align-items: center;
+
+    .card {
+        width: 90%;
+        height: 650px;
+        .fotoCard {
+            height: 400px;
+        }
+    }
+}
 
 }
