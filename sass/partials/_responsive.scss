@@ -141,5 +141,20 @@
             display: none;
         }
     }
+// 404------------------------
+.cuaBody {
+    background-image: url(../images-videos/error.png);
+    flex-direction: column;
+    height: 650px ;
+    img {
+        width: 60%;
+    }
+    p {
+        text-align: center;
+        font-size: 250%;
+        padding-bottom: 20px;
+    }
+}
+
 
 }
