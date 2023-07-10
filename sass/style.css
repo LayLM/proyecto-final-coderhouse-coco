@@ -201,13 +201,24 @@ header .navbar {
   width: 100%;
   object-fit: cover;
 }
-.involu .card .card-title {
+.involu .card .card-body .card-title {
   color: #E06469;
   font-size: 150%;
 }
-.involu .card .btn {
+.involu .card .card-body .card-text {
+  text-align: justify;
+}
+.involu .card .card-body .btn {
   background-color: #E06469;
   border: #E06469;
+}
+.involu .card .card-body .transicion {
+  transition: 1s;
+}
+.involu .card .card-body .transicion:hover {
+  color: #F2B6A0;
+  font-weight: 900;
+  transform: scale(1.5);
 }
 
 .banner-cinco {

@@ -221,14 +221,31 @@
             object-fit: cover;
         }
 
-        .card-title {
-            color: $rosaOscuro;
-            font-size: 150%;
-        }
+        .card-body {
+            .card-title {
+                color: $rosaOscuro;
+                font-size: 150%;
+            }
+.card-text {
+    text-align: justify;
+}
+            .btn {
+                background-color: $rosaOscuro;
+                border: $rosaOscuro;
+               
+            }
 
-        .btn {
-            background-color: $rosaOscuro;
-            border: $rosaOscuro;
+            .transicion {
+                transition: 1s;
+
+            }
+
+            .transicion:hover {
+                color: $rosaClaro;
+                 font-weight: 900;
+                 transform: scale(1.5);
+
+            }
         }
     }
 }
