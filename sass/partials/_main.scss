@@ -226,13 +226,15 @@
                 color: $rosaOscuro;
                 font-size: 150%;
             }
-.card-text {
-    text-align: justify;
-}
+
+            .card-text {
+                text-align: justify;
+            }
+
             .btn {
                 background-color: $rosaOscuro;
                 border: $rosaOscuro;
-               
+
             }
 
             .transicion {
@@ -242,8 +244,8 @@
 
             .transicion:hover {
                 color: $rosaClaro;
-                 font-weight: 900;
-                 transform: scale(1.5);
+                font-weight: 900;
+                transform: scale(1.5);
 
             }
         }
@@ -280,4 +282,55 @@
 
 .iframeVis {
     margin-left: 20px;
+}
+
+//404-----------------------------------------------------
+
+.cuaBody {
+
+    background-image: url(../images-videos/error2.png);
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    img {
+        border: 20px dotted $rosaOscuro;
+        animation: shake 0.5s infinite;
+
+    }
+
+    p {
+        font-family: $fuenteBanner;
+        font-size: 300%;
+        color: $rosaOscuro;
+        text-shadow: black 0.1em 0.1em 0.2em;
+        padding-right: 50px;
+
+    }
+}
+
+@keyframes shake {
+    0% {
+        transform: translate(0, 0);
+    }
+
+    10%,
+    30%,
+    50%,
+    70%,
+    90% {
+        transform: translate(-10px, 0);
+    }
+
+    20%,
+    40%,
+    60%,
+    80% {
+        transform: translate(10px, 0);
+    }
+
+    100% {
+        transform: translate(0, 0);
+    }
 }

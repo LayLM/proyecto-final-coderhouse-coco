@@ -251,6 +251,39 @@ header .navbar {
   margin-left: 20px;
 }
 
+.cuaBody {
+  background-image: url(../images-videos/error2.png);
+  height: 800px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cuaBody img {
+  border: 20px dotted #E06469;
+  animation: shake 0.5s infinite;
+}
+.cuaBody p {
+  font-family: "Darumadrop One";
+  font-size: 300%;
+  color: #E06469;
+  text-shadow: black 0.1em 0.1em 0.2em;
+  padding-right: 50px;
+}
+
+@keyframes shake {
+  0% {
+    transform: translate(0, 0);
+  }
+  10%, 30%, 50%, 70%, 90% {
+    transform: translate(-10px, 0);
+  }
+  20%, 40%, 60%, 80% {
+    transform: translate(10px, 0);
+  }
+  100% {
+    transform: translate(0, 0);
+  }
+}
 footer {
   background-color: #F2B6A0;
   display: flex;
