@@ -179,20 +179,54 @@
         padding: 40px 80px;
 
     }
-//involucrate
-.involu {
-    flex-direction: column;
-    padding: 10px;
-    height: 2000px;
-    align-items: center;
 
-    .card {
-        width: 90%;
-        height: 650px;
-        .fotoCard {
-            height: 400px;
+    //involucrate
+    .involu {
+        flex-direction: column;
+        padding: 10px;
+        height: 2000px;
+        align-items: center;
+
+        .card {
+            width: 90%;
+            height: 650px;
+
+            .fotoCard {
+                height: 400px;
+            }
         }
     }
-}
+
+    // visitas
+    .row {
+
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        grid-template-rows: 100px 280px;
+        grid-template-areas:
+            'visit visit'
+            'visitaa fotoVisita'
+        ;
+padding: 0 20px;
+        .visit {
+            grid-area: visit;
+            width: 100%;
+        }
+
+        .visitaa {
+            grid-area: visitaa;
+            width: 100%;
+        }
+
+        .fotoVisita {
+            grid-area: fotoVisita;
+            width: 100%;
+            margin: auto;
+            display: block;
+        }
+
+    }
+
+
 
 }

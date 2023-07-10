@@ -241,12 +241,6 @@ header .navbar {
   text-align: justify;
 }
 
-.fotoVisita {
-  height: 33%;
-  width: 100%;
-  object-fit: cover;
-}
-
 .iframeVis {
   margin-left: 20px;
 }
@@ -451,6 +445,27 @@ footer .f-dos .sub {
   }
   .involu .card .fotoCard {
     height: 400px;
+  }
+  .row {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 100px 280px;
+    grid-template-areas: "visit visit" "visitaa fotoVisita";
+    padding: 0 20px;
+  }
+  .row .visit {
+    grid-area: visit;
+    width: 100%;
+  }
+  .row .visitaa {
+    grid-area: visitaa;
+    width: 100%;
+  }
+  .row .fotoVisita {
+    grid-area: fotoVisita;
+    width: 100%;
+    margin: auto;
+    display: block;
   }
 }
 
