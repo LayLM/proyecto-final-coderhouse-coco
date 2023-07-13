@@ -290,7 +290,7 @@ footer a {
   text-decoration: none;
   color: black;
 }
-footer .cont {
+footer .footerUno {
   text-align: center;
   display: flex;
   flex-direction: column;
@@ -299,18 +299,18 @@ footer .cont {
   align-items: center;
   font-size: 130%;
 }
-footer .cont .sub {
+footer .footerUno .contacto {
   text-decoration: underline;
 }
-footer .cont .mailWasap {
+footer .footerUno .mailWasap {
   width: 40px;
   color: #E06469;
 }
-footer .f-dos {
+footer .footerDos {
   text-align: center;
   font-size: 150%;
 }
-footer .f-dos .sub {
+footer .footerDos .seguinos {
   text-decoration: underline;
 }
 
@@ -410,12 +410,12 @@ footer .f-dos .sub {
     justify-items: center;
     align-items: center;
   }
-  footer .cont {
+  footer .footerUno {
     font-size: 100%;
     padding: 0;
     margin: 0;
   }
-  footer .cont .sub {
+  footer .footerUno .contacto {
     font-size: 100%;
     padding: 0;
     margin: 0;

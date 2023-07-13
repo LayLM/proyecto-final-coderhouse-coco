@@ -12,7 +12,7 @@ footer {
         color: black;
     }
 
-    .cont {
+    .footerUno {
         text-align: center;
         display: flex;
         flex-direction: column;
@@ -21,7 +21,7 @@ footer {
         align-items: center;
         font-size: 130%;
 
-        .sub {
+        .contacto {
             text-decoration: underline;
         }
 
@@ -31,11 +31,11 @@ footer {
         }
     }
 
-    .f-dos {
+    .footerDos {
         text-align: center;
         font-size: 150%;
 
-        .sub {
+        .seguinos {
             text-decoration: underline;
         }
     }
