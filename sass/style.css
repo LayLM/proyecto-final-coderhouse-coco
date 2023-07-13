@@ -408,6 +408,7 @@ footer .footerDos .seguinos {
     justify-content: center;
     justify-items: center;
     align-items: center;
+    height: 250px;
   }
   footer .footerUno {
     font-size: 100%;
