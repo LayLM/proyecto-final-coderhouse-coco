@@ -430,6 +430,9 @@ footer .footerDos .seguinos {
     font-size: 20px;
     padding-top: 10px;
   }
+  .footerDos .redes .fa.fa-facebook, .footerDos .redes .fa-instagram, .footerDos .redes .fa-twitter, .footerDos .redes .fa-youtube {
+    padding: 0px 10px;
+  }
   .cuaBody {
     background-image: url(../images-videos/error.png);
     flex-direction: column;
