@@ -10,5 +10,8 @@ header {
     .navbar {
         background-color: $rosaClaro;
         font-family: $fuenteHeaderFooter;
+        .active {
+            font-weight: 900;
+        }
     }
 }

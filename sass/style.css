@@ -17,6 +17,9 @@ header .navbar {
   background-color: #F2B6A0;
   font-family: "Raleway";
 }
+header .navbar .active {
+  font-weight: 900;
+}
 
 .banner-cinco, .banner-dos, .banner-cuatro, .banner-tres, .banner-uno {
   position: relative;
