@@ -118,11 +118,17 @@
     .involu {
         flex-direction: column;
         padding: 10px;
-        height: 2000px;
+        height: 1800px;
         align-items: center;
 
         .card {
             width: 90%;
+        }
+        .cardVacas {
+            height: 175px;
+        }
+        .cardChancho {
+            height: 220px;
         }
     }
 

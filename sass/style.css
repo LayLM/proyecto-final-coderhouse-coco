@@ -392,11 +392,17 @@ footer .f-dos .sub {
   .involu {
     flex-direction: column;
     padding: 10px;
-    height: 2000px;
+    height: 1800px;
     align-items: center;
   }
   .involu .card {
     width: 90%;
+  }
+  .involu .cardVacas {
+    height: 175px;
+  }
+  .involu .cardChancho {
+    height: 220px;
   }
   footer {
     flex-direction: column;
