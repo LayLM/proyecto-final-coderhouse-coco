@@ -379,6 +379,9 @@ footer .f-dos .sub {
   .main-residentes .gallinas-r-texto {
     text-align: justify;
   }
+  .banner-tres {
+    background-image: url(../images-videos/ternero-mobile.jpg);
+  }
   .nuestra {
     text-align: center;
     padding: 0;
