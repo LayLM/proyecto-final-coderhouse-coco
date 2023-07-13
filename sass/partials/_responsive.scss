@@ -75,7 +75,7 @@
             'foto4'
             'texto4'
         ;
-        padding: 10px;
+        padding: 30px 10px 10px 10px;
 
         img {
             width: 60%;
@@ -104,6 +104,7 @@
     .banner-tres {
         background-image: url(../images-videos/ternero-mobile.jpg);
     }
+
     .nuestra {
         text-align: center;
         padding: 0;
@@ -188,6 +189,7 @@
 
     }
 
+
     //involucrate
     .involu {
         flex-direction: column;
@@ -235,11 +237,12 @@
         }
 
     }
-//nosotros
+
+    //nosotros
 
 
-.main-dos .img-grande {
-    width: 80%;
-}
+    .main-dos .img-grande {
+        width: 80%;
+    }
 
 }
