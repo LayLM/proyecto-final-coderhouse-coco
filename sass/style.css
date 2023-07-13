@@ -291,16 +291,15 @@ footer a {
   color: black;
 }
 footer .footerUno {
-  text-align: center;
   display: flex;
   flex-direction: column;
   margin-left: 15px;
   justify-content: center;
-  align-items: center;
   font-size: 130%;
 }
 footer .footerUno .contacto {
   text-decoration: underline;
+  text-align: center;
 }
 footer .footerUno .mailWasap {
   width: 40px;
@@ -416,12 +415,16 @@ footer .footerDos .seguinos {
     margin: 0;
   }
   footer .footerUno .contacto {
-    font-size: 100%;
+    font-size: 20px;
     padding: 0;
     margin: 0;
   }
   footer .iframe {
     display: none;
+  }
+  .footerDos .seguinos {
+    font-size: 20px;
+    padding-top: 10px;
   }
   .cuaBody {
     background-image: url(../images-videos/error.png);

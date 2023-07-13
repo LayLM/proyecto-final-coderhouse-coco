@@ -13,16 +13,17 @@ footer {
     }
 
     .footerUno {
-        text-align: center;
+        // text-align: center;
         display: flex;
         flex-direction: column;
         margin-left: 15px;
         justify-content: center;
-        align-items: center;
+        // align-items: center;
         font-size: 130%;
 
         .contacto {
             text-decoration: underline;
+            text-align: center;
         }
 
         .mailWasap {
