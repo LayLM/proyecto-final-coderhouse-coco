@@ -13,12 +13,10 @@ footer {
     }
 
     .footerUno {
-        // text-align: center;
         display: flex;
         flex-direction: column;
         margin-left: 15px;
         justify-content: center;
-        // align-items: center;
         font-size: 130%;
 
         .contacto {
@@ -29,6 +27,9 @@ footer {
         .mailWasap {
             width: 40px;
             color: $rosaOscuro;
+        }
+        .direccion {
+            padding-top: 5px;
         }
     }
 
