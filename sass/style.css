@@ -439,7 +439,7 @@ footer .footerDos .seguinos {
   .cuaBody {
     background-image: url(../images-videos/error.png);
     flex-direction: column;
-    height: 650px;
+    height: 800px;
   }
   .cuaBody img {
     width: 60%;
