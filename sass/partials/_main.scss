@@ -30,7 +30,7 @@
 
 .banner-uno {
     @extend %banner;
-    background-image: url(../images-videos/cerdo-hocico-banner.jpg);
+    background-image: url(../images-videos/cerdo-hocico-banner.webp);
 }
 
 .primeras-palabras {
@@ -73,7 +73,7 @@
 // NUESTRA HISTORIA
 .banner-tres {
     @extend %banner;
-    background-image: url(../images-videos/ternero-banner.png);
+    background-image: url(../images-videos/ternero-banner.webp);
 }
 
 .main-dos {
@@ -140,7 +140,7 @@
 // RESIDENTES
 .banner-cuatro {
     @extend %banner;
-    background-image: url(../images-videos/gallinas-banner.png);
+    background-image: url(../images-videos/gallinas-banner.webp);
 }
 
 .main-residentes {
@@ -157,7 +157,7 @@
     align-items: center;
     font-family: $fuenteMain;
     font-size: 150%;
-    background-image: url(../images-videos/corazonDos.png);
+    background-image: url(../images-videos/corazonDos.webp);
 
     img {
         width: 100%;
@@ -210,14 +210,14 @@
 // INVOLUCRATE
 .banner-dos {
     @extend %banner;
-    background-image: url(../images-videos/cerdos-banner.png);
+    background-image: url(../images-videos/cerdos-banner.webp);
 }
 
 .involu {
     display: flex;
     justify-content: center;
     padding: 100px 60px;
-    background-image: url(../images-videos/animal.png);
+    background-image: url(../images-videos/animal.webp);
     height: 700px;
 
     .card {
@@ -263,13 +263,13 @@
 // VISITAS
 .banner-cinco {
     @extend %banner;
-    background-image: url(../images-videos/cabra-banner.png);
+    background-image: url(../images-videos/cabra-banner.webp);
 }
 
 .visit {
     color: $rosaOscuro;
     font-weight: 700;
-    background-image: url(../images-videos/floresFondooo.jpg);
+    background-image: url(../images-videos/floresFondooo.webp);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -278,7 +278,7 @@
 .visitaa {
     display: flex;
     align-items: center;
-    font-size: 110%;
+    font-size: 120%;
     text-align: justify;
 }
 
@@ -290,7 +290,7 @@
 
 .cuaBody {
 
-    background-image: url(../images-videos/error2.png);
+    background-image: url(../images-videos/error2.webp);
     height: 800px;
     display: flex;
     justify-content: center;

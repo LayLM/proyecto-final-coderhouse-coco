@@ -47,7 +47,7 @@ header .navbar .active {
 }
 
 .banner-uno {
-  background-image: url(../images-videos/cerdo-hocico-banner.jpg);
+  background-image: url(../images-videos/cerdo-hocico-banner.webp);
 }
 
 .primeras-palabras, .segundas-palabras {
@@ -81,7 +81,7 @@ header .navbar .active {
 }
 
 .banner-tres {
-  background-image: url(../images-videos/ternero-banner.png);
+  background-image: url(../images-videos/ternero-banner.webp);
 }
 
 .main-dos {
@@ -136,7 +136,7 @@ header .navbar .active {
 }
 
 .banner-cuatro {
-  background-image: url(../images-videos/gallinas-banner.png);
+  background-image: url(../images-videos/gallinas-banner.webp);
 }
 
 .main-residentes {
@@ -149,7 +149,7 @@ header .navbar .active {
   align-items: center;
   font-family: "Sen";
   font-size: 150%;
-  background-image: url(../images-videos/corazonDos.png);
+  background-image: url(../images-videos/corazonDos.webp);
 }
 .main-residentes img {
   width: 100%;
@@ -191,14 +191,14 @@ header .navbar .active {
 }
 
 .banner-dos {
-  background-image: url(../images-videos/cerdos-banner.png);
+  background-image: url(../images-videos/cerdos-banner.webp);
 }
 
 .involu {
   display: flex;
   justify-content: center;
   padding: 100px 60px;
-  background-image: url(../images-videos/animal.png);
+  background-image: url(../images-videos/animal.webp);
   height: 700px;
 }
 .involu .card {
@@ -230,13 +230,13 @@ header .navbar .active {
 }
 
 .banner-cinco {
-  background-image: url(../images-videos/cabra-banner.png);
+  background-image: url(../images-videos/cabra-banner.webp);
 }
 
 .visit {
   color: #E06469;
   font-weight: 700;
-  background-image: url(../images-videos/floresFondooo.jpg);
+  background-image: url(../images-videos/floresFondooo.webp);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -245,7 +245,7 @@ header .navbar .active {
 .visitaa {
   display: flex;
   align-items: center;
-  font-size: 110%;
+  font-size: 120%;
   text-align: justify;
 }
 
@@ -254,7 +254,7 @@ header .navbar .active {
 }
 
 .cuaBody {
-  background-image: url(../images-videos/error2.png);
+  background-image: url(../images-videos/error2.webp);
   height: 800px;
   display: flex;
   justify-content: center;
@@ -399,7 +399,7 @@ footer .footerDos .seguinos {
     text-align: justify;
   }
   .banner-tres {
-    background-image: url(../images-videos/ternero-mobile.jpg);
+    background-image: url(../images-videos/ternero-mobile.webp);
   }
   .nuestra {
     text-align: center;
@@ -454,7 +454,7 @@ footer .footerDos .seguinos {
     padding: 0px 10px;
   }
   .cuaBody {
-    background-image: url(../images-videos/error.png);
+    background-image: url(../images-videos/error.webp);
     flex-direction: column;
     height: 800px;
   }
