@@ -37,13 +37,19 @@
     font-family: $fuenteMain;
     font-size: 30px;
     display: flex;
-    margin: 5%;
+    margin: 3% 5% 2% 5%;
     text-align: justify;
 }
 
 .video {
     display: flex;
     justify-content: center;
+    height: 500px;
+    
+    .elVideo {
+        width: 80%
+    }
+         
 }
 
 .segundas-palabras {

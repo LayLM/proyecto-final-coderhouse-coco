@@ -11,9 +11,13 @@
         font-size: 150%;
     }
 
-    .elVideo {
-        width: 100%;
-        height: 100%;
+    .video {
+        height: 200px;
+        
+        .elVideo {
+            width: 90%
+        }
+             
     }
 
     .segundas-palabras {
