@@ -13,11 +13,11 @@
 
     .video {
         height: 200px;
-        
+
         .elVideo {
             width: 90%
         }
-             
+
     }
 
     .segundas-palabras {
@@ -86,6 +86,12 @@
             padding: 10px;
         }
 
+        .vacas-r {
+            padding-top: 10px;
+        }
+.gallinas-r {
+    padding-bottom: 10px;
+}
         .vacas-r-texto {
             text-align: justify;
         }
@@ -171,7 +177,11 @@
         }
 
         .redes {
-            .fa.fa-facebook, .fa-instagram, .fa-twitter, .fa-youtube {
+
+            .fa.fa-facebook,
+            .fa-instagram,
+            .fa-twitter,
+            .fa-youtube {
                 padding: 0px 10px;
             }
 
@@ -201,7 +211,7 @@
 
 // tablet -----------------------------------------
 
-@media only screen and (min-width: 481px) and (max-width: 999px) {
+@media only screen and (min-width: 481px) and (max-width: 1199px) {
 
     //residentes
     .main-residentes {

@@ -142,7 +142,7 @@ header .navbar .active {
 .main-residentes {
   display: grid;
   grid-template-columns: 1fr 2fr 1fr;
-  grid-template-rows: 400px 300px 300px 400px;
+  grid-template-rows: 300px 300px 300px 300px;
   grid-template-areas: "foto1 texto1 ." ". texto2 foto2" "foto3 texto3 ." ". texto4 foto4";
   padding: 40px 150px;
   justify-items: center;
@@ -157,6 +157,7 @@ header .navbar .active {
 }
 .main-residentes .vacas-r {
   grid-area: foto1;
+  padding-top: 40px;
 }
 .main-residentes .cabras-r {
   grid-area: foto2;
@@ -166,6 +167,7 @@ header .navbar .active {
 }
 .main-residentes .gallinas-r {
   grid-area: foto4;
+  padding-bottom: 40px;
 }
 .main-residentes .vacas-r-texto {
   grid-area: texto1;
@@ -378,6 +380,12 @@ footer .footerDos .seguinos {
     width: 60%;
     padding: 10px;
   }
+  .main-residentes .vacas-r {
+    padding-top: 10px;
+  }
+  .main-residentes .gallinas-r {
+    padding-bottom: 10px;
+  }
   .main-residentes .vacas-r-texto {
     text-align: justify;
   }
@@ -439,7 +447,10 @@ footer .footerDos .seguinos {
     font-size: 20px;
     padding-top: 10px;
   }
-  .footerDos .redes .fa.fa-facebook, .footerDos .redes .fa-instagram, .footerDos .redes .fa-twitter, .footerDos .redes .fa-youtube {
+  .footerDos .redes .fa.fa-facebook,
+  .footerDos .redes .fa-instagram,
+  .footerDos .redes .fa-twitter,
+  .footerDos .redes .fa-youtube {
     padding: 0px 10px;
   }
   .cuaBody {
@@ -456,7 +467,7 @@ footer .footerDos .seguinos {
     padding: 0px 10px 20px 10px;
   }
 }
-@media only screen and (min-width: 481px) and (max-width: 999px) {
+@media only screen and (min-width: 481px) and (max-width: 1199px) {
   .main-residentes {
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 400px 400px;
