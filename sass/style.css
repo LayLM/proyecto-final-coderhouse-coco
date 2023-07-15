@@ -447,7 +447,7 @@ footer .footerDos .seguinos {
   .cuaBody p {
     text-align: center;
     font-size: 250%;
-    padding-bottom: 20px;
+    padding: 0px 10px 20px 10px;
   }
 }
 @media only screen and (min-width: 481px) and (max-width: 999px) {
