@@ -26,8 +26,6 @@
     }
 }
 
-
-
 .banner-uno {
     @extend %banner;
     background-image: url(../images-videos/cerdo-hocico-banner.webp);
@@ -49,7 +47,7 @@
     .elVideo {
         width: 80%
     }
-         
+
 }
 
 .segundas-palabras {
@@ -166,7 +164,6 @@
 
     .vacas-r {
         grid-area: foto1;
-        padding-top: 40px;
     }
 
     .cabras-r {
@@ -179,7 +176,6 @@
 
     .gallinas-r {
         grid-area: foto4;
-        padding-bottom: 40px;
     }
 
     .vacas-r-texto {

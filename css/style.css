@@ -157,7 +157,6 @@ header .navbar .active {
 }
 .main-residentes .vacas-r {
   grid-area: foto1;
-  padding-top: 40px;
 }
 .main-residentes .cabras-r {
   grid-area: foto2;
@@ -167,7 +166,6 @@ header .navbar .active {
 }
 .main-residentes .gallinas-r {
   grid-area: foto4;
-  padding-bottom: 40px;
 }
 .main-residentes .vacas-r-texto {
   grid-area: texto1;
@@ -379,12 +377,6 @@ footer .footerDos .seguinos {
   .main-residentes img {
     width: 60%;
     padding: 10px;
-  }
-  .main-residentes .vacas-r {
-    padding-top: 10px;
-  }
-  .main-residentes .gallinas-r {
-    padding-bottom: 10px;
   }
   .main-residentes .vacas-r-texto {
     text-align: justify;
